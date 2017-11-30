@@ -41,6 +41,7 @@ text3.appendChild(time);
 
 Create a new div element with an id of "price4". Inside this div element, give it the following info:
 
+
 Price: $$$
 
 Append this element to the div with the id of 
@@ -66,7 +67,25 @@ Append this element to the div with the id of
 I'd leave a blank space for this oxtail soup!
 
 Append this element to the div id of "comment4"*/
+var price = document.createElement('div');
+price.id = 'price4';
+price.innerHTML = "Price: $$$";
+text4.appendChild(price);
 
+var address = document.createElement('div');
+address.id = 'addy4';
+address.innerHTML = "Address: 1620 N. School St, Honolulu, HI 96817";
+text4.appendChild(address);
+
+var hours = document.createElement('div');
+hours.id = 'hours4';
+hours.innerHTML = "Hours: 9am - 10pm Sun - Sat";
+text4.appendChild(hours);
+
+var comment = document.createElement('p');
+comment.id = 'update4';
+comment.innerHTML = "I'd leave a blank space for this oxtail soup!";
+comment4.appendChild(comment);
 
 //5. The Death Star Cafe
 /*The empire strikes back with a new and improved oxtail soup offering. Help the dark side win back customers by executing the following commands:*/
@@ -89,4 +108,29 @@ hours5: Hours: We never close.
 
 Append the div elements to the div id "text5"
 */
+
+var deathName = document.createElement('div');
+deathName.id = 'name5';
+deathName.innerHTML = "5. The Death Star Cafe";
+text5.appendChild(deathName);
+
+var deathRating = document.createElement('div');
+deathRating.id = 'rating5';
+deathRating.innerHTML = "Rating: 2 Stars";
+text5.appendChild(deathRating);
+
+var deathPrice = document.createElement('div');
+deathPrice.id = 'price5';
+deathPrice.innerHTML = 'Price: $$';
+text5.appendChild(deathPrice);
+
+var deathAddress = document.createElement('div');
+deathAddress.id = 'addy5';
+deathAddress.innerHTML = "Address: A galaxy far, far away.";
+text5.appendChild(deathAddress);
+
+var deathHours = document.createElement('div');
+deathHours.id = 'hours5';
+deathHours.innerHTML = 'Hours: We never close.';
+text5.appendChild(deathHours);
 
