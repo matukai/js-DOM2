@@ -7,6 +7,8 @@ Also don't forget to run your live-server for this assignment.*/
 
 Rating: 5 Stars*/
 
+var fiveStarRating = document.getElementById("rating1");
+fiveStarRating.innerHTML = "Rating: 5 Stars";
 
 //2. Sunrise Restaurant
 /*No rise and shine for the Sunrise Restaurant, as their price and address needs some serious updating. Bring in some sunshine by changing the price and address to the following:
@@ -14,6 +16,11 @@ Rating: 5 Stars*/
 Price: $$$
 Adress: 525 Kapahulu Ave, Honolulu, HI 96815*/
 
+var priceUpdate = document.getElementById("price2");
+priceUpdate.innerHTML = "Price: $$$";
+
+var addressUpdate = document.getElementById("addy2");
+addressUpdate.innerHTML = "525 Kapahulu Ave, Honolulu, HI, 96815";
 
 //3. Ramen Nakamura
 /*Literally, where did the time go? Ramen Nakamura is missing the hours section! This mistake is timeless.
@@ -24,6 +31,10 @@ Hours: 6pm - 12am Sun - Sat
 
 Append this div element to the div id "text3"*/
 
+var time = document.createElement('div');
+time.id = 'hours3';
+time.innerHTML = "Hours: 7pm - 12am Sun - Sat";
+text3.appendChild(time);
 
 //4. Kam Bowl
 /*Kam Bowl got no spare time to update their info and business is suffering! Help them regain their kingpin status again.
